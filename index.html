@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PurpleDay - Sistema de Gestión</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="sidebar">
+        <div class="logo">PurpleDay</div>
+        <ul>
+            <li><a href="#" class="active"><i class="fas fa-home"></i> Inicio</a></li>
+            <li><a href="#"><i class="fas fa-user"></i> Empleados</a></li>
+            <li><a href="#"><i class="fas fa-project-diagram"></i> Proyectos</a></li>
+            <li><a href="#"><i class="fas fa-chart-bar"></i> Informes</a></li>
+            <li><a href="#"><i class="fas fa-cog"></i> Configuración</a></li>
+        </ul>
+    </nav>
+    <div class="main-content">
+        <header>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="user-info">
+                <span>Erica Conmella</span>
+                <img src="https://thispersondoesnotexist.com/image" alt="User Avatar">
+            </div>
+        </header>
+        <main>
+            <h1>Panel de Control</h1>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <h2>Estadísticas de Seguridad</h2>
+                    <p>Intentos de intrusión: <span class="highlight">1,337</span></p>
+                    <p>Vulnerabilidades detectadas: <span class="highlight">42</span></p>
+                    <p>Nivel de alerta: <span class="alert">CRÍTICO</span></p>
+                </div>
+                <div class="grid-item">
+                    <h2>Proyectos Activos</h2>
+                    <ul>
+                        <li>Firewall Cuántico</li>
+                        <li>IA de Detección de Amenazas</li>
+                        <li>Criptografía Neuronal</li>
+                    </ul>
+                </div>
+                <div class="grid-item">
+                    <h2>Mensajes Recientes</h2>
+                    <p><strong>Admin:</strong> Actualización de seguridad urgente requerida</p>
+                    <p><strong>Sistema:</strong> Detectada actividad sospechosa en el sector 7G</p>
+                </div>
+                <div class="grid-item">
+                    <h2>Rendimiento del Equipo</h2>
+                    <div class="chart-placeholder">
+                        [Gráfico de Rendimiento]
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
