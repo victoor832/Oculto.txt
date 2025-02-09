@@ -1,0 +1,1 @@
+La flag es: flag{BL4CK_GR0UP}
